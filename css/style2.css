@@ -1,0 +1,764 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "gotham-general";
+    src: url(gotham/Gotham-Bold.otf);
+}
+
+/* NAV BAR */
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+header .logo {
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+header nav .nav-bar {
+    margin: 8px;
+    font-family: "gotham-general";
+    font-size: 15px;
+    color: black;
+    align-items: center;
+}
+    
+header nav a:hover {
+    font-style: bold;
+    color: #e6d690 !important;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black !important; 
+}
+
+header .menu-hamburguesa {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+}
+
+header .menu-hamburguesa img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+
+/* CUERPO WEB */
+
+body {
+    font-family: "gotham-general";
+}
+
+.intro-inicio {
+    text-align: center;
+    justify-content: center;
+    margin: 20px 40px;
+}
+
+.intro-inicio h1 {
+    font-family: "gotham-general";
+    color: cadetblue;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.intro-inicio h2 {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    margin: 0px;
+}
+
+.intro-inicio p {
+    font-size: 20px;
+    text-align: justify;
+    justify-content: center;
+}
+
+.intro-inicio col {
+    width: 50px !important;
+    justify-content: center;
+}
+
+.intro-inicio iframe {
+    width: 565px !important;
+    height: 300px !important;
+    justify-content: center;
+}
+
+.boton-inicio {
+    text-decoration: none;
+    color: black;
+    background-color: #e6d690;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container boton-inicio {
+    display: flex;
+    align-items: center;
+}
+
+/* SECCION 2 CON TARJETAS*/
+
+.titulo-modulo-h3 {
+    font-family: "gotham-bold";
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px; 
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.contenedor .tarjeta {
+    width: 300px;
+    height: 380px;
+    border: gray solid 1px;
+    border-radius: 8px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor .tarjeta img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.contenedor .tarjeta h3 {
+    font-size: 18px;
+    font-weight: bold !important;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+
+.contenedor p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px; /*espacio que deja en la misma caja*/
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.contenedor .tarjeta a {
+    text-decoration: none;
+    color: black;
+    background-color: #e6d690;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FORMULARIO Y MAPA */ 
+
+/*
+.grid-container-inicio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 300px);
+    column-gap: 40px; 
+    align-items: center;
+    justify-content: center;
+    margin: 10px 30px;
+}
+
+.grid-item .item-uno {
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.seccion-form-inicio col {
+    justify-content: center;
+}
+
+
+.formulario { /* formulario */
+    margin-left: 40px;
+    border-radius: 4px;
+    border: #3b7861 solid 1px;
+    background-color: #d2d1c7;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seccion-form-inicio h4 {
+    font-style: bold;
+}
+
+
+.item-uno h3 {
+    font-style: bold;
+    font-size: 20px;
+}
+
+.input-form {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none; 
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+
+.nombre-casilla-form-1 {
+    margin: 0px 0px;
+    text-align: left;
+}
+
+.input-form:focus { 
+    border-color: #e6d690; 
+}
+
+.select-form {
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+#ttcc-link {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px;
+    align-items: center;
+}
+
+.boton-form {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    border: 0px;
+    display: block;
+    margin: 5px 5px;
+}
+
+.seccion-form-inicio iframe {
+    overflow: hidden;
+    width: 500px !important;
+    height: 300px !important;
+    justify-content: center;
+}
+
+/*
+.item-dos {  mapa 
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 48%;
+    height: 0;
+    margin-right: 40px;
+}
+*/ 
+
+
+/* FORMULARIO Y MAPA 
+
+.formulario {
+    border-radius: 4px;
+    border: #3b7861 solid 1px;
+    background-color: #d2d1c7;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formulario form {
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: left !important;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.input-form {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none; 
+    border: 1px solid grey;
+}
+
+.input-form:focus { 
+    border-color: #e6d690; 
+}
+
+.nombre-casilla-form {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.select-form {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+.ttcc-form {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px;
+    align-items: center;
+}
+
+.boton-form {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    border: 0px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mapa-ubicacion {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+*/
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e6d690;
+    justify-content: space-between;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+footer div {
+    align-items: center !important;
+}
+
+.texto-footer {
+    display: flex;
+    width: 100%;
+    place-items: center; /* alinear el texto al centro*/
+}
+
+footer img {
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;  
+}
+
+footer p {
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+}
+
+footer a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.red-social {
+    list-style-type: none;
+    align-items: center;
+    margin-left: 120px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/* ESTILO PAGINA NOSOTROS*/ 
+
+.intro-inicio iframe {
+    width: 60%;
+    height: 400px;
+}
+
+.parrafo-principal-nosotros {
+    text-align: center;
+    justify-content: center;
+    margin: 20px 40px;
+}
+
+.titulo-modulo-h3 {
+    padding: 0px;
+}
+
+.seccion1-nosotros {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.contenedor .card {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor .card img {
+    width: 300px;
+    height: 200px;
+    width: 100%;
+}
+
+.card {
+    margin: 5px !important;
+}
+
+.card-text {
+    justify-content: center !important;
+    text-align: justify !important;
+}
+
+.col {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+} 
+
+.row {
+    margin-left: 40px;
+    margin-right: 40px;  
+}
+
+.reviews-nosotros p {
+    margin: 10px;  
+    font-style: italic;
+    justify-content: center;  
+}
+
+.reviews-nosotros h4 {
+    font-size: 10px;
+    justify-content: center;
+    margin-top: 0px;
+    margin: 10px;
+}
+
+
+/* ESTILO PAGINA CONTACTO*/ 
+
+.seccion-form-inicio .parrafo-inicio-contacto {
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.banner-principal-paginas img {
+    width: 100%;
+    height: 80vh; /* Solo ocupa el 80% del navegador*/
+}
+
+.titulo-secundario-contacto {
+    font-size: 20px;
+}
+
+.container iframe {
+    overflow: hidden;
+    width: 100% !important;
+    height: 400px !important;
+}
+
+
+/*
+.grid-container-nosotros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px;
+    column-gap: 60px; 
+    align-items: center;
+    justify-content: center;
+    margin: 10px 30px;
+}
+
+.item-uno-contacto {
+    background-color: #e6d690;
+    grid-column: 1/2;
+}
+
+.item-uno-contacto h2 {
+    margin: 10px 10px;
+    font-style: bold;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.item-uno-contacto .parrafo-formulario-contacto {
+    margin-bottom: 10px;
+}
+
+.nombre-casilla-form {
+    margin-top: 5px;
+}
+
+.item-uno-contacto {
+    grid-column: 1/2;
+    padding: 40px;
+}
+
+.item-dos-contacto {
+    grid-column: 2/4;
+    width: 50%;
+}
+
+.boton-form-contacto {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    border: 0px;
+    display: block;
+    margin: 5px 5px;
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+}
+*/
+
+/* ESTILO PAGINA PRODUCTOS*/ 
+
+.titulo-principal-producto {
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.seccion1-productos {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.card {
+    margin: 10px !important;
+    padding: 0px !important;
+    border: none;
+    align-items: center;
+}
+
+.card-text {
+    font-style: bold !important;
+    justify-content: center !important;
+}
+
+.titulo-secundario-producto {
+    margin: 10px 10px;
+    font-style: bold;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* subcategoria skincare */
+.productos-skincare {
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+    margin-bottom: 20px;
+}
+
+.productos-skincare p {
+    font-size: 12px;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+.productos-skincare .foto-producto {
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.productos-skincare col-2 {
+    align-items: center;
+}
+
+.productos-skincare a {
+    font-size: 12px !important;
+    text-decoration: none;
+    color: black;
+    background-color: #e6d690;
+    padding: 8px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.productos-skincare div {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* subcategoria make-up*/
+
+.productos-makeup {
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+    margin-bottom: 20px;
+}
+
+.productos-makeup p {
+    font-size: 12px;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+.productos-makeup .foto-producto {
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.productos-makeup col-2 {
+    align-items: center;
+}
+
+.productos-makeup a {
+    font-size: 12px !important;
+    text-decoration: none;
+    color: black;
+    background-color: #e6d690;
+    padding: 8px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.productos-makeup div {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* subcategoria fragancies*/
+.productos-fragances {
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+    margin-bottom: 60px;
+}
+
+.productos-fragances p {
+    font-size: 12px;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+.productos-fragances .foto-producto {
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.productos-fragances col-2 {
+    align-items: center;
+}
+
+.productos-fragances a {
+    font-size: 12px !important;
+    text-decoration: none;
+    color: black;
+    background-color: #e6d690;
+    padding: 8px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ESTILO PAGINA SUSTENTABILIDAD*/ 
+
+.container {
+    margin: 20px !important;
+    justify-content: center !important;
+}
+
+.col {
+    width: 50%;
+}
+
+.row {
+    align-items: center !important;
+}
+
+.container p {
+    margin-bottom: 15px;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    background-color: #e6d690;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+
