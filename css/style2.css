@@ -41,8 +41,7 @@ header nav .nav-bar {
 }
     
 header nav a:hover {
-    font-style: bold;
-    color: #e6d690 !important;
+    color: #e6d690;
 }
 
 header nav a {
