@@ -1,0 +1,14 @@
+{
+  "name": "entregable",
+  "version": "1.0.0",
+  "description": "Mi proyecto se trata de productos de belleza, tanto skincare, como maquillaje y fragancias.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.4"
+  }
+}
