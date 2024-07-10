@@ -17,64 +17,73 @@
 <body>
 
     <header>
-
-        <img class="logo" src="https://cdn.shopify.com/s/files/1/0009/7137/4652/files/Logo_ee_black.svg?v=1592921257" alt="logo-web">
         
         <nav>
-                <div class="nav-bar"> 
-                    <a href="../index.html"> Inicio </a>
-                </div>
-                <div class="nav-bar">
-                    <a href="productos.html"> Productos </a>
-                </div>
-                <div class="nav-bar">
-                    <a href="sustentabilidad.html"> Sustentabilidad </a>
-                </div> 
-                <div class="nav-bar">
-                    <a href="#"> Nosotros </a>
-                </div>
-                <div class="nav-bar">
-                    <a href="contacto.html"> Contacto </a>
-                </div>
-        </nav>
 
-        <div class="menu-hamburguesa">
-            <img src="../assets/icono-menu-hamb.png" alt="menu-hamburguesa">
-        </div>
+            <input type="checkbox" id="check"> <!--menu hamburguesa-->
+            <label for="check" class="menu_hamburguesa">
+                <img src="../assets/icono-menu-hamb.png" alt="menu-hamburguesa">
+            </label>
+                
+            <a href="#" class="enlace">
+                <img src="https://cdn.shopify.com/s/files/1/0009/7137/4652/files/Logo_ee_black.svg?v=1592921257" alt="logo-evereden"" alt="logo everden" class="logo">
+            </a>
+
+            <ul>
+                <li>
+                    <a href="../index.html"> Inicio </a>
+                </li>
+                <li>
+                    <a href="./productos.html"> Productos</a>
+                </li>
+                <li>
+                    <a href="./sustentabilidad.html"> Sustentabilidad </a>
+                </li>
+                <li>
+                    <a href="#"> Nosotros</a>
+                </li>
+                <li>
+                    <a href="./contacto.html"> Contacto</a>
+                </li>
+            </ul>
+
+        </nav>
 
     </header>
 
  <!-- BANNER INICIAL -->
 
- <div class="banner-principal-paginas">
-    <img src="../assets/fleur-kaan-w4Dj3MshHQ0-unsplash.jpg" class="d-block w-100" alt="banner-contacto">
-  </div> 
+    <div class="banner-principal-paginas">
+        <img src="../assets/fleur-kaan-w4Dj3MshHQ0-unsplash.jpg" class="d-block w-100" alt="banner-nosotros">
+    </div> 
 
 <!-- SECCION 1: INTRODUCCION INICIO CON VIDEO -->
 
-        <h2 class="titulo-nosotros">
-            Titulo Principal Skicare Shop
-        </h2>
+    <h1 class="titulo-inicio">
+        Conocé todo acerca de Evereden
+    </h1>
 
-        <p class="parrafo-principal-nosotros">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nihil, necessitatibus est recusandae sequi dolor neque ea exercitationem eum blanditiis nam, ratione quasi, fugiat ab iure provident consequatur voluptatem. Quod! 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem porro molestias modi enim eum eveniet nostrum, quia, quasi voluptatibus, dolorum autem commodi repudiandae natus veritatis ipsa? Est, alias repellendus!
-        </p>
-        
-        <section class="video-nosotros">
+    <p class="parrafo-principal-nosotros">
+        Bienvenidos a Evereden, mi sueño hecho realidad. Soy Vicky, fundadora de esta empresa que nació ante la frustración de no encontrar en el mercado un producto adecuado para mi: apto piel sensible, libre de sulfatos, no testeado en animales y ademas, accesible. Lo que comenzó como un desafío personal en 2019 ha crecido hasta convertirse en un equipo apasionado de 50 personas, unidas por el compromiso de ofrecer soluciones verdaderamente efectivas.
+        Nuestro objetivo es ofrecer soluciones inclusivas para todo tipo de piel, porque creemos que todos merecen sentirse seguros y radiantes en su propia piel. Cada producto que lleva el nombre de Evereden está diseñado con ingredientes de alta calidad y procesos sustentables, para que puedas cuidar tu piel de manera consciente y efectiva.
+    </p>
+
+    <section class="seccion-video-1">      
+        <div class="video-nosotros">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/up0lzYDf_B4?si=y_epufBsiF3CgC9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
+        </div>
+    </section>
 
 <!-- SECCION 2: TARJETAS IMAGENES Y TEXTO (bootstrap)-->
 
-<h3 class="titulo-modulo-h3">
+<h2 class="titulo-modulo-h2">
    Nuestros Valores y Filosofia
-</h3>
+</h2>
 
 <section class="seccion1-nosotros">
   
     <div class="card" style="width: 18rem;">
-        <img src="../assets/tarjeta-valores-confianza.jpg" class="card-img-top" alt="...">
+        <img src="../assets/tarjeta-valores-confianza.jpg" class="card-img-top" alt="imagen de una chica aplicandose un producto en la cara">
         <div class="card-body">
             <h4> Transparencia y Confianza </h4>
             <p class="card-text"> Creemos en la transparencia total en nuestros procesos y productos. Nos esforzamos por ganar la confianza de nuestros clientes a través de una comunicación abierta y auténtica sobre nuestros ingredientes y compromisos.</p>
@@ -82,7 +91,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-        <img src="../assets/tarjeta-producto.jpg" class="card-img-top" alt="...">
+        <img src="../assets/tarjeta-producto.jpg" class="card-img-top" alt="imagen de un kit de productos">
         <div class="card-body">
             <h4> Calidad y Eficacia </h4>
             <p class="card-text"> Nos esforzamos por ofrecer productos de skincare de la más alta calidad, respaldados por la ciencia y formulados con ingredientes naturales, para brindar resultados visibles y duraderos a nuestros clientes. </p>
@@ -90,7 +99,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-        <img src="../assets/tarjeta-sustentabilidad.jpg" class="card-img-top" alt="...">
+        <img src="../assets/tarjeta-sustentabilidad.jpg" class="card-img-top" alt="imagen de un kit de productos con sus ingredientes naturales: jengibre, limon, menta">
         <div class="card-body">
             <h4> Compromiso con el Planeta </h4>
             <p class="card-text"> Nos comprometemos a liderar el camino hacia una industria de skincare más sostenible, utilizando prácticas respetuosas con el medio ambiente en cada aspecto de nuestro negocio. </p>
@@ -99,21 +108,21 @@
 
 </section>
 
-    <!-- SECCION DE REVIEWS -->
+<!-- SECCION DE REVIEWS -->
 
-    <h3 class="titulo-modulo-h3">
+    <h2 class="titulo-modulo-h2">
         Opiniones de nuestros clientes
-    </h3>
+    </h2>
 
 <section class="reviews-nosotros">
     <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="../assets/review-5estrellas.jpeg" alt="">
+            <img class="estrellas-review" src="../assets/review-5estrellas.jpeg" alt="">
             <p> El serum Genova es un producto super recomendadable por su capacidad de refrescar e hidratar la piel de manera ligera y rápida absorción. Ideal para piel mixta, dejándola luminosa sin sensación grasa. </p>
             <h4>Susana Gonzalez </h4>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="../assets/review-5estrellas.jpeg" alt="">
+            <img class="estrellas-review" src="../assets/review-5estrellas.jpeg" alt="">
             <p> La crema facial Barcelona es un producto excelente, refresca e hidrata la piel y es súper liviana. Además ayuda a prevenir y/o contrarrestar las primeras arrugas causadas por la edad. 100% recomendable. </p>
             <h4> Agustina Vazquez </h4>
         </div>
@@ -125,8 +134,10 @@
 
 <footer>
 
-    <img class="logo" src="https://cdn.shopify.com/s/files/1/0009/7137/4652/files/Logo_ee_black.svg?v=1592921257" alt="logo-web">
-     
+    <div class="logo-footer"> 
+        <img class="logo" src="https://cdn.shopify.com/s/files/1/0009/7137/4652/files/Logo_ee_black.svg?v=1592921257" alt="logo-web">
+    </div>
+    
     <div class="texto-footer">
         <p>
             &#169 2024 <b> Evereden</b> - Todos los Derechos Reservados 

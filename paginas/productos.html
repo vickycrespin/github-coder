@@ -16,263 +16,197 @@
 <body>
 
     <header>
-
-        <img class="logo" src="https://cdn.shopify.com/s/files/1/0009/7137/4652/files/Logo_ee_black.svg?v=1592921257" alt="logo-web">
         
         <nav>
-                <div class="nav-bar"> 
-                    <a href="../index.html"> Inicio </a>
-                </div>
-                <div class="nav-bar">
-                    <a href="#"> Productos </a>
-                </div>
-                <div class="nav-bar">
-                    <a href="sustentabilidad.html"> Sustentabilidad </a>
-                </div> 
-                <div class="nav-bar">
-                    <a href="nosotros.html"> Nosotros </a>
-                </div>
-                <div class="nav-bar">
-                    <a href="contacto.html"> Contacto </a>
-                </div>
-        </nav>
 
-        <div class="menu-hamburguesa">
-            <img src="../assets/icono-menu-hamb.png" alt="menu-hamburguesa">
-        </div>
+                <input type="checkbox" id="check"> <!--menu hamburguesa-->
+                <label for="check" class="menu_hamburguesa">
+                    <img src="../assets/icono-menu-hamb.png" alt="menu-hamburguesa">
+                </label>
+                
+                <a href="#" class="enlace">
+                    <img src="https://cdn.shopify.com/s/files/1/0009/7137/4652/files/Logo_ee_black.svg?v=1592921257" alt="logo-evereden"" alt="logo everden" class="logo">
+                </a>
+
+                <ul>
+                    <li>
+                        <a href="../index.html"> Inicio </a>
+                    </li>
+                    <li>
+                        <a href="#"> Productos</a>
+                    </li>
+                    <li>
+                        <a href="./sustentabilidad.html"> Sustentabilidad </a>
+                    </li>
+                    <li>
+                        <a href="./nosotros.html"> Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html"> Contacto</a>
+                    </li>
+                </ul>
+
+        </nav>
 
     </header>
     
  <!-- BANNER INICIAL -->
 
- <div class="banner-principal-paginas">
-    <img src="../assets/banner-principal-productos.jpg" class="d-block w-100" alt="banner-contacto">
-  </div> 
+    <main>
 
-
-
-    <!-- SECCION 1: IMAGENES CON LINK -->
-
-    <h2 class="titulo-principal-producto">
-        Titulo Principal Producto
-    </h2>  
-
-<section class="seccion1-productos">
-
-    <div class="card" style="width: 18rem;">
-        <a href="#redireccion-crema"> <img src="../assets/banner-500x315-crema.jpg" class="card-img-top" alt="banner-crema"></a>
-        <div class="card-body">
-          <p class="card-text"> Cremas faciales </p>
-        </div>
-      </div>
-
-    <div class="card" style="width: 18rem;">
-        <a href="#redireccion-serum"> <img src="../assets/banner-500x315-serum.jpg" class="card-img-top" alt="banner-serum"> </a>
-        <div class="card-body">
-          <p class="card-text"> Serums </p>
-        </div>
-      </div>   
-
-      <div class="card" style="width: 18rem;">
-        <a href="#redireccion-locion"> <img src="../assets/banner-500x315-jabon.jpg" alt="banner-corporal"> </a>
-        <div class="card-body">
-          <p class="card-text"> Corporales </p>
-        </div>
-      </div>
-
-</section>
-
-<!-- carrousel con cremas -->
-
-<h3 class="titulo-secundario-producto"> Conoce nuestras cremas faciales </h3>
-
-<section class="productos-skincare">
-
-    <div class="container text-center">
+        <div class="banner-principal-paginas">
+            <img src="../assets/banner-principal-productos.jpg" class="d-block w-100" alt="banner con dos cremas faciales">
+        </div> 
         
-        <div class="row">
-            
-            <div class="col-6">
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!-- SECCION 1: IMAGENES CON LINK -->
+            <h1 class="titulo-inicio">
+                Productos Evereden
+            </h1>  
+
+            <section class="seccion1-productos">
+
+                <div class="card" style="width: 18rem;">
+                    <a href="#redireccion-crema"> <img src="../assets/banner-500x315-crema.jpg" class="card-img-top" alt="banner con dos cremas faciales"></a>
+                    <div class="card-body">
+                    <p class="card-text"> Cremas faciales </p>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img id="redireccion-crema" src="../assets/banner-principal-productos.jpg" class="d-block w-100" alt="banner-principal-beauty">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../assets/imagen-banner-productos.jpg" class="d-block w-100" alt="c">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../assets/imagen-banner-sustntabilidad1.jpg" class="d-block w-100" alt="imagen-banner-sustentabilidad">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
-            </div>
-          
-            <div class="col-2">
-                <img class="foto-producto" src="../assets/producto-serum-1.webp">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, officia.</p>
-                <a href="#"> Comprar </a>
-            </div>
-          
-            <div class="col-2">
-                <img class="foto-producto" src="../assets/producto-serum-2.webp">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, officia.</p>
-                <a href="#"> Comprar </a>
-            </div>
 
-            <div class="col-2">
-                <img class="foto-producto" src="../assets/producto-serum-3.webp">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, officia.</p>
-                <a href="#"> Comprar </a>
-            </div>
-        
-        </div>
-    </div>     
-
-</section> 
-
-<!-- carrousel de serums -->
-<h3 class="titulo-secundario-producto"> Conoce nuestros serums </h3>
-
-<section class="productos-makeup">
-
-    <div class="container text-center">
-        
-        <div class="row">
-            
-            <div class="col-2">
-                <img class="foto-producto" src="../assets/producto-serum-1.webp">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, officia.</p>
-                <a href="#"> Comprar </a>
-            </div>
-          
-            <div class="col-2">
-                <img class="foto-producto" src="../assets/producto-serum-2.webp">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, officia.</p>
-                <a href="#"> Comprar </a>
-            </div>
-
-            <div class="col-2">
-                <img class="foto-producto" src="../assets/producto-serum-3.webp">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, officia.</p>
-                <a href="#"> Comprar </a>
-            </div>
-
-            <div class="col-6">
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <div class="card" style="width: 18rem;">
+                    <a href="#redireccion-serum"> <img src="../assets/banner-500x315-serum.jpg" class="card-img-top" alt="banner con un serum"> </a>
+                    <div class="card-body">
+                    <p class="card-text"> Serums </p>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img id="redireccion-serum" src="../assets/portada-serums-1.jpg" class="d-block w-100" alt="banner-principal-beauty">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../assets/imagen-banner-productos.jpg" class="d-block w-100" alt="c">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../assets/imagen-banner-sustntabilidad1.jpg" class="d-block w-100" alt="imagen-banner-sustentabilidad">
-                        </div>
+                </div>   
+
+                <div class="card" style="width: 18rem;">
+                    <a href="#redireccion-locion"> <img src="../assets/banner-500x315-jabon.jpg" alt="banner con una locion corporal"> </a>
+                    <div class="card-body">
+                    <p class="card-text"> Corporales </p>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
-            </div>
-        
-        </div>
-    </div>     
 
-</section> 
+            </section>
 
-<!-- carrousel lociones -->
-<h3 class="titulo-secundario-producto"> Conoce nuestras cremas corporales </h3>
+            <!-- carrousel con cremas -->
 
-<section class="productos-fragances">
+            <h2 class="subtitulo-index"> Conoce nuestras cremas faciales </h2>
 
-    <div class="container text-center">
-        
-        <div class="row">
-            
-            <div class="col-6">
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <section class="productos-skincare">
+
+                <div class="container text-center">
+                    
+                    <div class="row">
+                        
+                        <div class="col-6">
+                            <img id="redireccion-crema" class="imagen-seccion" src="../assets/banner-principal-inicio-3.jpg" alt="mano sosteniendo una crema facial y agarrando textura">
+                        </div>    
+                    
+                        <div class="col-2">
+                            <img class="foto-producto-sk" src="../assets/producto-serum-1.webp" alt="imagen de producto con una crema para arrugas">
+                            <p> Corrige los signos visibles de la pérdida de colágeno en la piel.</p>
+                            <a href="#"> Comprar </a>
+                        </div>
+                    
+                        <div class="col-2">
+                            <img class="foto-producto-sk" src="../assets/producto-serum-2.webp" alt="imagen de producto con una crema para manchas">
+                            <p> Fortalece el manto hidrolipídico de la piel para 72 horas de hidratación. </p>
+                            <a href="#"> Comprar </a>
+                        </div>
+
+                        <div class="col-2">
+                            <img class="foto-producto-sk" src="../assets/producto-serum-3.webp" alt="imagen de producto con una crema para lineas de expresion">
+                            <p> Reactiva los mecanismos de la piel en la perimenopausia: densidad, sequedad.</p>
+                            <a href="#"> Comprar </a>
+                        </div>
+                    
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img id="redireccion-locion" src="../assets/banner-500x315-jabon.jpg" class="d-block w-100" alt="banner-principal-beauty">
+                </div>     
+
+            </section> 
+
+            <!-- carrousel de serums -->
+            <h2 class="subtitulo-index"> Conoce nuestros serums </h2>
+
+            <section class="productos-makeup">
+
+                <div class="container text-center">
+                    
+                    <div class="row">
+                        
+                        <div class="col-2">
+                            <img id="redireccion-serum" class="foto-producto-mk" src="../assets/producto-serum-1.webp" alt="imagen de producto con un serum para arrugas">
+                            <p> Reduce progresivamente las arrugas y las líneas de expresión.</p>
+                            <a href="#"> Comprar </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="../assets/producto-serum-2.webp" class="d-block w-100" alt="c">
+                    
+                        <div class="col-2">
+                            <img class="foto-producto-mk" src="../assets/producto-serum-2.webp" alt="imagen de producto con un serum para manchas">
+                            <p> Corrige el color de las manchas oscuras y unifica el tono de la piel.</p>
+                            <a href="#"> Comprar </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="../assets/producto-serum-3.webp" class="d-block w-100" alt="imagen-banner-sustentabilidad">
+
+                        <div class="col-2">
+                            <img class="foto-producto-mk" src="../assets/producto-serum-3.webp" alt="imagen de producto con un serum para lineas de exprsion">
+                            <p> Ayuda a lograr una tez visiblemente más brillante y firme.</p>
+                            <a href="#"> Comprar </a>
                         </div>
+
+                        <div class="col-6">
+                            <img class="imagen-seccion" src="../assets/serum-seccion.jpg" alt="imagen de un serum y su version de relleno">
+                        </div>
+                    
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-          
-            <div class="col-2">
-                <img class="foto-producto" src="../assets/producto-serum-1.webp">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, officia.</p>
-                <a href="#"> Comprar </a>
-            </div>
-          
-            <div class="col-2">
-                <img class="foto-producto" src="../assets/producto-serum-2.webp">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, officia.</p>
-                <a href="#"> Comprar </a>
-            </div>
+                </div>     
 
-            <div class="col-2">
-                <img class="foto-producto" src="../assets/producto-serum-3.webp">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, officia.</p>
-                <a href="#"> Comprar </a>
-            </div>
-        
-        </div>
-    </div>     
+            </section> 
 
-</section> 
+            <!-- carrousel lociones -->
+            <h2 class="subtitulo-index"> Conoce nuestras cremas corporales </h2>
 
+            <section class="productos-fragances">
+
+                <div class="container text-center">
+                    
+                    <div class="row">
+                        
+                        <div class="col-6">
+                            <img id="redireccion-locion" class="imagen-seccion" src="../assets/locion-corporal.jpg" alt="imagen de dos lociones corporales">
+                        </div>
+                    
+                        <div class="col-2">
+                            <img class="foto-producto-fr" src="../assets/producto-serum-1.webp" alt="imagen de producto con una locion de cuerpo para piel seca">
+                            <p> La crema Hidratación Profunda deja la piel suave, elástica y saludable. </p>
+                            <a href="#"> Comprar </a>
+                        </div>
+                    
+                        <div class="col-2">
+                            <img class="foto-producto-fr" src="../assets/producto-serum-2.webp" alt="imagen de producto con una locion de cuerpo para piel ultra seca">
+                            <p> La crema Ultra Hidratación permite rejuvenecer tu piel y combatir el envejecimiento.</p>
+                            <a href="#"> Comprar </a>
+                        </div>
+
+                        <div class="col-2">
+                            <img class="foto-producto-fr" src="../assets/producto-serum-3.webp" alt="imagen de producto con una locion de cuerpo para piel sensible">
+                            <p> La crema Regeneración Intensiva para revertir la resequedad.</p>
+                            <a href="#"> Comprar </a>
+                        </div>
+                    
+                    </div>
+                </div>     
+
+            </section>
+
+    </main>
 
 <!-- PIE DE PAGINA -->
 
 <footer>
 
-    <img class="logo" src="https://cdn.shopify.com/s/files/1/0009/7137/4652/files/Logo_ee_black.svg?v=1592921257" alt="logo-web">
-     
+    <div class="logo-footer"> 
+        <img class="logo" src="https://cdn.shopify.com/s/files/1/0009/7137/4652/files/Logo_ee_black.svg?v=1592921257" alt="logo-web">
+    </div>
+    
     <div class="texto-footer">
         <p>
             &#169 2024 <b> Evereden</b> - Todos los Derechos Reservados 
